@@ -1,0 +1,10 @@
+
+// Test for CSS 3 UI "resize" property
+// http://www.w3.org/TR/css3-ui/#resize
+// https://developer.mozilla.org/en/CSS/resize
+
+Modernizr.addTest('cssresize', Modernizr.testAllProps('resize'));
+
+
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Nzcy1yZXNpemUuanMiXSwic291cmNlc0NvbnRlbnQiOlsiXG4vLyBUZXN0IGZvciBDU1MgMyBVSSBcInJlc2l6ZVwiIHByb3BlcnR5XG4vLyBodHRwOi8vd3d3LnczLm9yZy9UUi9jc3MzLXVpLyNyZXNpemVcbi8vIGh0dHBzOi8vZGV2ZWxvcGVyLm1vemlsbGEub3JnL2VuL0NTUy9yZXNpemVcblxuTW9kZXJuaXpyLmFkZFRlc3QoJ2Nzc3Jlc2l6ZScsIE1vZGVybml6ci50ZXN0QWxsUHJvcHMoJ3Jlc2l6ZScpKTtcblxuXG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvY3NzLXJlc2l6ZS5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

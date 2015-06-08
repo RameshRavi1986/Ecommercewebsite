@@ -1,0 +1,15 @@
+<div class="row" data-ng-controller="HomeController as hCtrl">
+<div class="large-6 columns">
+<a href="#categories?id=1"  data-ng-click="hCtrl.setCategory(1)">
+	<img src="images/mens.jpg"/>
+	<span style="position:absolute;top:40%;left:10%;border:1px solid white;color:white;font-size:2rem;">Men</span>
+</a>
+</div>
+<div class="large-6 columns">
+<a ui-sref="categories({id:2})"  data-ng-click="hCtrl.setCategory(2)">
+	<img src="images/women.jpg"/>
+	<span style="position:absolute;top:40%;left:10%;border:1px solid white;color:white;font-size:2rem;">Women</span>
+</a>
+</div>
+
+</div>

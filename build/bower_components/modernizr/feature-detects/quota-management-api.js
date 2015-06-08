@@ -1,0 +1,13 @@
+// Quota Storage Management API
+// This API can be used to check how much quota an origin is using and request more
+
+// Currently only implemented in Chrome.
+// https://developers.google.com/chrome/whitepapers/storage
+// By Addy Osmani
+
+Modernizr.addTest('quotamanagement', function(){
+  var storage = Modernizr.prefixed('StorageInfo', window);
+  return !!(storage && 'TEMPORARY' in storage && 'PERSISTENT' in storage);
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL3F1b3RhLW1hbmFnZW1lbnQtYXBpLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIFF1b3RhIFN0b3JhZ2UgTWFuYWdlbWVudCBBUElcbi8vIFRoaXMgQVBJIGNhbiBiZSB1c2VkIHRvIGNoZWNrIGhvdyBtdWNoIHF1b3RhIGFuIG9yaWdpbiBpcyB1c2luZyBhbmQgcmVxdWVzdCBtb3JlXG5cbi8vIEN1cnJlbnRseSBvbmx5IGltcGxlbWVudGVkIGluIENocm9tZS5cbi8vIGh0dHBzOi8vZGV2ZWxvcGVycy5nb29nbGUuY29tL2Nocm9tZS93aGl0ZXBhcGVycy9zdG9yYWdlXG4vLyBCeSBBZGR5IE9zbWFuaVxuXG5Nb2Rlcm5penIuYWRkVGVzdCgncXVvdGFtYW5hZ2VtZW50JywgZnVuY3Rpb24oKXtcbiAgdmFyIHN0b3JhZ2UgPSBNb2Rlcm5penIucHJlZml4ZWQoJ1N0b3JhZ2VJbmZvJywgd2luZG93KTtcbiAgcmV0dXJuICEhKHN0b3JhZ2UgJiYgJ1RFTVBPUkFSWScgaW4gc3RvcmFnZSAmJiAnUEVSU0lTVEVOVCcgaW4gc3RvcmFnZSk7XG59KTtcbiJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy9xdW90YS1tYW5hZ2VtZW50LWFwaS5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

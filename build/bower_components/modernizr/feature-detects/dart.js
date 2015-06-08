@@ -1,0 +1,8 @@
+// Dart
+// By Theodoor van Donge
+
+// https://chromiumcodereview.appspot.com/9232049/
+
+Modernizr.addTest('dart', !!Modernizr.prefixed('startDart', navigator));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2RhcnQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gRGFydFxuLy8gQnkgVGhlb2Rvb3IgdmFuIERvbmdlXG5cbi8vIGh0dHBzOi8vY2hyb21pdW1jb2RlcmV2aWV3LmFwcHNwb3QuY29tLzkyMzIwNDkvXG5cbk1vZGVybml6ci5hZGRUZXN0KCdkYXJ0JywgISFNb2Rlcm5penIucHJlZml4ZWQoJ3N0YXJ0RGFydCcsIG5hdmlnYXRvcikpO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2RhcnQuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

@@ -1,0 +1,13 @@
+// last-child pseudo selector
+// https://github.com/Modernizr/Modernizr/pull/304
+
+
+Modernizr.addTest('lastchild', function(){
+
+  return Modernizr.testStyles("#modernizr div {width:100px} #modernizr :last-child{width:200px;display:block}", function (elem) {
+    return elem.lastChild.offsetWidth > elem.firstChild.offsetWidth;
+  }, 2);
+
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Nzcy1sYXN0Y2hpbGQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gbGFzdC1jaGlsZCBwc2V1ZG8gc2VsZWN0b3Jcbi8vIGh0dHBzOi8vZ2l0aHViLmNvbS9Nb2Rlcm5penIvTW9kZXJuaXpyL3B1bGwvMzA0XG5cblxuTW9kZXJuaXpyLmFkZFRlc3QoJ2xhc3RjaGlsZCcsIGZ1bmN0aW9uKCl7XG5cbiAgcmV0dXJuIE1vZGVybml6ci50ZXN0U3R5bGVzKFwiI21vZGVybml6ciBkaXYge3dpZHRoOjEwMHB4fSAjbW9kZXJuaXpyIDpsYXN0LWNoaWxke3dpZHRoOjIwMHB4O2Rpc3BsYXk6YmxvY2t9XCIsIGZ1bmN0aW9uIChlbGVtKSB7XG4gICAgcmV0dXJuIGVsZW0ubGFzdENoaWxkLm9mZnNldFdpZHRoID4gZWxlbS5maXJzdENoaWxkLm9mZnNldFdpZHRoO1xuICB9LCAyKTtcblxufSk7XG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvY3NzLWxhc3RjaGlsZC5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

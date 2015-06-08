@@ -1,0 +1,9 @@
+// native JSON support.
+// developer.mozilla.org/en/JSON
+
+// this will also succeed if you've loaded the JSON2.js polyfill ahead of time
+//   ... but that should be obvious. :)
+
+Modernizr.addTest('json', !!window.JSON && !!JSON.parse);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2pzb24uanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gbmF0aXZlIEpTT04gc3VwcG9ydC5cbi8vIGRldmVsb3Blci5tb3ppbGxhLm9yZy9lbi9KU09OXG5cbi8vIHRoaXMgd2lsbCBhbHNvIHN1Y2NlZWQgaWYgeW91J3ZlIGxvYWRlZCB0aGUgSlNPTjIuanMgcG9seWZpbGwgYWhlYWQgb2YgdGltZVxuLy8gICAuLi4gYnV0IHRoYXQgc2hvdWxkIGJlIG9idmlvdXMuIDopXG5cbk1vZGVybml6ci5hZGRUZXN0KCdqc29uJywgISF3aW5kb3cuSlNPTiAmJiAhIUpTT04ucGFyc2UpO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2pzb24uanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

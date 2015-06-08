@@ -1,0 +1,10 @@
+
+// tests if page is iframed
+
+// github.com/Modernizr/Modernizr/issues/242
+
+Modernizr.addTest('framed', function(){
+  return window.location != top.location;
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL3dpbmRvdy1mcmFtZWQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiXG4vLyB0ZXN0cyBpZiBwYWdlIGlzIGlmcmFtZWRcblxuLy8gZ2l0aHViLmNvbS9Nb2Rlcm5penIvTW9kZXJuaXpyL2lzc3Vlcy8yNDJcblxuTW9kZXJuaXpyLmFkZFRlc3QoJ2ZyYW1lZCcsIGZ1bmN0aW9uKCl7XG4gIHJldHVybiB3aW5kb3cubG9jYXRpb24gIT0gdG9wLmxvY2F0aW9uO1xufSk7XG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvd2luZG93LWZyYW1lZC5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

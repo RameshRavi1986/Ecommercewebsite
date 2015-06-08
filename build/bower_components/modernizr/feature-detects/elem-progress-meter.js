@@ -1,0 +1,13 @@
+//By Stefan Wallin
+
+//tests for progressbar-support. All browsers that don't support progressbar returns undefined =)
+Modernizr.addTest("progressbar",function(){
+    return document.createElement('progress').max !== undefined;
+});
+
+//tests for meter-support. All browsers that don't support meters returns undefined =)
+Modernizr.addTest("meter",function(){
+    return document.createElement('meter').max !== undefined;
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2VsZW0tcHJvZ3Jlc3MtbWV0ZXIuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy9CeSBTdGVmYW4gV2FsbGluXG5cbi8vdGVzdHMgZm9yIHByb2dyZXNzYmFyLXN1cHBvcnQuIEFsbCBicm93c2VycyB0aGF0IGRvbid0IHN1cHBvcnQgcHJvZ3Jlc3NiYXIgcmV0dXJucyB1bmRlZmluZWQgPSlcbk1vZGVybml6ci5hZGRUZXN0KFwicHJvZ3Jlc3NiYXJcIixmdW5jdGlvbigpe1xuICAgIHJldHVybiBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdwcm9ncmVzcycpLm1heCAhPT0gdW5kZWZpbmVkO1xufSk7XG5cbi8vdGVzdHMgZm9yIG1ldGVyLXN1cHBvcnQuIEFsbCBicm93c2VycyB0aGF0IGRvbid0IHN1cHBvcnQgbWV0ZXJzIHJldHVybnMgdW5kZWZpbmVkID0pXG5Nb2Rlcm5penIuYWRkVGVzdChcIm1ldGVyXCIsZnVuY3Rpb24oKXtcbiAgICByZXR1cm4gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnbWV0ZXInKS5tYXggIT09IHVuZGVmaW5lZDtcbn0pO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2VsZW0tcHJvZ3Jlc3MtbWV0ZXIuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

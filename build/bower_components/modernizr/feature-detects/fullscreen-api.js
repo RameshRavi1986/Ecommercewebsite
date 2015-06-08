@@ -1,0 +1,12 @@
+Modernizr.addTest('fullscreen',function(){
+     for(var i = 0; i < Modernizr._domPrefixes.length; i++) {
+        if( document[Modernizr._domPrefixes[i].toLowerCase() + 'CancelFullScreen'])
+            return true;
+     }
+     return !!document['cancelFullScreen'] || false;
+});
+
+// http://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/ControllingMediaWithJavaScript/ControllingMediaWithJavaScript.html#//apple_ref/doc/uid/TP40009523-CH3-SW20
+// https://developer.mozilla.org/en/API/Fullscreen
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Z1bGxzY3JlZW4tYXBpLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIk1vZGVybml6ci5hZGRUZXN0KCdmdWxsc2NyZWVuJyxmdW5jdGlvbigpe1xuICAgICBmb3IodmFyIGkgPSAwOyBpIDwgTW9kZXJuaXpyLl9kb21QcmVmaXhlcy5sZW5ndGg7IGkrKykge1xuICAgICAgICBpZiggZG9jdW1lbnRbTW9kZXJuaXpyLl9kb21QcmVmaXhlc1tpXS50b0xvd2VyQ2FzZSgpICsgJ0NhbmNlbEZ1bGxTY3JlZW4nXSlcbiAgICAgICAgICAgIHJldHVybiB0cnVlO1xuICAgICB9XG4gICAgIHJldHVybiAhIWRvY3VtZW50WydjYW5jZWxGdWxsU2NyZWVuJ10gfHwgZmFsc2U7XG59KTtcblxuLy8gaHR0cDovL2RldmVsb3Blci5hcHBsZS5jb20vbGlicmFyeS9zYWZhcmkvZG9jdW1lbnRhdGlvbi9BdWRpb1ZpZGVvL0NvbmNlcHR1YWwvVXNpbmdfSFRNTDVfQXVkaW9fVmlkZW8vQ29udHJvbGxpbmdNZWRpYVdpdGhKYXZhU2NyaXB0L0NvbnRyb2xsaW5nTWVkaWFXaXRoSmF2YVNjcmlwdC5odG1sIy8vYXBwbGVfcmVmL2RvYy91aWQvVFA0MDAwOTUyMy1DSDMtU1cyMFxuLy8gaHR0cHM6Ly9kZXZlbG9wZXIubW96aWxsYS5vcmcvZW4vQVBJL0Z1bGxzY3JlZW5cbiJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy9mdWxsc2NyZWVuLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

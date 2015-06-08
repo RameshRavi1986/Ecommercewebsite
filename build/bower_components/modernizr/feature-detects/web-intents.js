@@ -1,0 +1,8 @@
+// Tests for the ability to use Web Intents (http://webintents.org).
+// By Eric Bidelman
+
+Modernizr.addTest('webintents', function() {
+  return !!Modernizr.prefixed('startActivity', navigator);
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL3dlYi1pbnRlbnRzLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIFRlc3RzIGZvciB0aGUgYWJpbGl0eSB0byB1c2UgV2ViIEludGVudHMgKGh0dHA6Ly93ZWJpbnRlbnRzLm9yZykuXG4vLyBCeSBFcmljIEJpZGVsbWFuXG5cbk1vZGVybml6ci5hZGRUZXN0KCd3ZWJpbnRlbnRzJywgZnVuY3Rpb24oKSB7XG4gIHJldHVybiAhIU1vZGVybml6ci5wcmVmaXhlZCgnc3RhcnRBY3Rpdml0eScsIG5hdmlnYXRvcik7XG59KTtcbiJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy93ZWItaW50ZW50cy5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

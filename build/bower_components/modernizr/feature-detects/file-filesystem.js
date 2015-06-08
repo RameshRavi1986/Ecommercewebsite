@@ -1,0 +1,10 @@
+// Filesystem API
+// dev.w3.org/2009/dap/file-system/file-dir-sys.html
+
+// The API will be present in Chrome incognito, but will throw an exception.
+// See crbug.com/93417
+//
+// By Eric Bidelman (@ebidel)
+
+Modernizr.addTest('filesystem', !!Modernizr.prefixed('requestFileSystem', window));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2ZpbGUtZmlsZXN5c3RlbS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBGaWxlc3lzdGVtIEFQSVxuLy8gZGV2LnczLm9yZy8yMDA5L2RhcC9maWxlLXN5c3RlbS9maWxlLWRpci1zeXMuaHRtbFxuXG4vLyBUaGUgQVBJIHdpbGwgYmUgcHJlc2VudCBpbiBDaHJvbWUgaW5jb2duaXRvLCBidXQgd2lsbCB0aHJvdyBhbiBleGNlcHRpb24uXG4vLyBTZWUgY3JidWcuY29tLzkzNDE3XG4vL1xuLy8gQnkgRXJpYyBCaWRlbG1hbiAoQGViaWRlbClcblxuTW9kZXJuaXpyLmFkZFRlc3QoJ2ZpbGVzeXN0ZW0nLCAhIU1vZGVybml6ci5wcmVmaXhlZCgncmVxdWVzdEZpbGVTeXN0ZW0nLCB3aW5kb3cpKTsiXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvZmlsZS1maWxlc3lzdGVtLmpzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

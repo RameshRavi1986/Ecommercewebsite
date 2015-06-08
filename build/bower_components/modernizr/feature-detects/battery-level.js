@@ -1,0 +1,13 @@
+
+// Low Battery Level
+// Enable a developer to remove CPU intensive CSS/JS when battery is low
+// developer.mozilla.org/en/DOM/window.navigator.mozBattery
+// By: Paul Sayre
+
+Modernizr.addTest('lowbattery', function () {
+	var minLevel = 0.20,
+		battery = Modernizr.prefixed('battery', navigator);
+	return !!(battery && !battery.charging && battery.level <= minLevel);
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2JhdHRlcnktbGV2ZWwuanMiXSwic291cmNlc0NvbnRlbnQiOlsiXG4vLyBMb3cgQmF0dGVyeSBMZXZlbFxuLy8gRW5hYmxlIGEgZGV2ZWxvcGVyIHRvIHJlbW92ZSBDUFUgaW50ZW5zaXZlIENTUy9KUyB3aGVuIGJhdHRlcnkgaXMgbG93XG4vLyBkZXZlbG9wZXIubW96aWxsYS5vcmcvZW4vRE9NL3dpbmRvdy5uYXZpZ2F0b3IubW96QmF0dGVyeVxuLy8gQnk6IFBhdWwgU2F5cmVcblxuTW9kZXJuaXpyLmFkZFRlc3QoJ2xvd2JhdHRlcnknLCBmdW5jdGlvbiAoKSB7XG5cdHZhciBtaW5MZXZlbCA9IDAuMjAsXG5cdFx0YmF0dGVyeSA9IE1vZGVybml6ci5wcmVmaXhlZCgnYmF0dGVyeScsIG5hdmlnYXRvcik7XG5cdHJldHVybiAhIShiYXR0ZXJ5ICYmICFiYXR0ZXJ5LmNoYXJnaW5nICYmIGJhdHRlcnkubGV2ZWwgPD0gbWluTGV2ZWwpO1xufSk7XG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvYmF0dGVyeS1sZXZlbC5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

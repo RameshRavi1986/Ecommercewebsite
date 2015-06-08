@@ -1,0 +1,12 @@
+// -moz-user-select:none test.
+
+// by ryan seddon
+//https://github.com/Modernizr/Modernizr/issues/250
+
+
+Modernizr.addTest("userselect",function(){
+    return Modernizr.testAllProps("user-select");
+});
+
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Nzcy11c2Vyc2VsZWN0LmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIC1tb3otdXNlci1zZWxlY3Q6bm9uZSB0ZXN0LlxuXG4vLyBieSByeWFuIHNlZGRvblxuLy9odHRwczovL2dpdGh1Yi5jb20vTW9kZXJuaXpyL01vZGVybml6ci9pc3N1ZXMvMjUwXG5cblxuTW9kZXJuaXpyLmFkZFRlc3QoXCJ1c2Vyc2VsZWN0XCIsZnVuY3Rpb24oKXtcbiAgICByZXR1cm4gTW9kZXJuaXpyLnRlc3RBbGxQcm9wcyhcInVzZXItc2VsZWN0XCIpO1xufSk7XG5cbiJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy9jc3MtdXNlcnNlbGVjdC5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

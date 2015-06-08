@@ -1,0 +1,9 @@
+
+// Battery API
+// https://developer.mozilla.org/en/DOM/window.navigator.mozBattery
+// By: Paul Sayre
+
+Modernizr.addTest('battery',
+	!!Modernizr.prefixed('battery', navigator)
+);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2JhdHRlcnktYXBpLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIlxuLy8gQmF0dGVyeSBBUElcbi8vIGh0dHBzOi8vZGV2ZWxvcGVyLm1vemlsbGEub3JnL2VuL0RPTS93aW5kb3cubmF2aWdhdG9yLm1vekJhdHRlcnlcbi8vIEJ5OiBQYXVsIFNheXJlXG5cbk1vZGVybml6ci5hZGRUZXN0KCdiYXR0ZXJ5Jyxcblx0ISFNb2Rlcm5penIucHJlZml4ZWQoJ2JhdHRlcnknLCBuYXZpZ2F0b3IpXG4pOyJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy9iYXR0ZXJ5LWFwaS5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

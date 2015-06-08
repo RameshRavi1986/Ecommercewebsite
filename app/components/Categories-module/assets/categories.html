@@ -1,0 +1,13 @@
+<div class="row" data-ng-controller="CategoryController as catCtrl">
+<div class="large-12 columns">
+
+	<img src="{{catCtrl.model.selectedCategory.image}}"/>
+	<div style="position:absolute;top:40%;left:10%;color:white;font-size:2rem;" class="categoryContainer">
+		<div data-ng-repeat="category in catCtrl.model.selectedCategory.category">
+		
+		<a ui-sref="products({id:catCtrl.model.selectedCategory.id,type:category.type})">{{category.name}}</a>
+	</div>
+</div>
+</a>
+</div>
+</div>

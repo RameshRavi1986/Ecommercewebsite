@@ -1,0 +1,4 @@
+// cors
+// By Theodoor van Donge
+Modernizr.addTest('cors', !!(window.XMLHttpRequest && 'withCredentials' in new XMLHttpRequest()));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2NvcnMuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gY29yc1xuLy8gQnkgVGhlb2Rvb3IgdmFuIERvbmdlXG5Nb2Rlcm5penIuYWRkVGVzdCgnY29ycycsICEhKHdpbmRvdy5YTUxIdHRwUmVxdWVzdCAmJiAnd2l0aENyZWRlbnRpYWxzJyBpbiBuZXcgWE1MSHR0cFJlcXVlc3QoKSkpOyJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy9jb3JzLmpzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

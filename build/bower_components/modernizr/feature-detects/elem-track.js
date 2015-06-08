@@ -1,0 +1,13 @@
+// Track element + Timed Text Track API
+// http://www.w3.org/TR/html5/video.html#the-track-element
+// http://www.w3.org/TR/html5/media-elements.html#text-track-api
+//
+// While IE10 has implemented the track element, IE10 does not expose the underlying APIs to create timed text tracks by JS (really sad)
+// By Addy Osmani
+Modernizr.addTest({
+	texttrackapi: (typeof (document.createElement('video').addTextTrack) === 'function'),
+	// a more strict test for track including UI support: document.createElement('track').kind === 'subtitles'
+	track: ('kind' in document.createElement('track'))
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2VsZW0tdHJhY2suanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gVHJhY2sgZWxlbWVudCArIFRpbWVkIFRleHQgVHJhY2sgQVBJXG4vLyBodHRwOi8vd3d3LnczLm9yZy9UUi9odG1sNS92aWRlby5odG1sI3RoZS10cmFjay1lbGVtZW50XG4vLyBodHRwOi8vd3d3LnczLm9yZy9UUi9odG1sNS9tZWRpYS1lbGVtZW50cy5odG1sI3RleHQtdHJhY2stYXBpXG4vL1xuLy8gV2hpbGUgSUUxMCBoYXMgaW1wbGVtZW50ZWQgdGhlIHRyYWNrIGVsZW1lbnQsIElFMTAgZG9lcyBub3QgZXhwb3NlIHRoZSB1bmRlcmx5aW5nIEFQSXMgdG8gY3JlYXRlIHRpbWVkIHRleHQgdHJhY2tzIGJ5IEpTIChyZWFsbHkgc2FkKVxuLy8gQnkgQWRkeSBPc21hbmlcbk1vZGVybml6ci5hZGRUZXN0KHtcblx0dGV4dHRyYWNrYXBpOiAodHlwZW9mIChkb2N1bWVudC5jcmVhdGVFbGVtZW50KCd2aWRlbycpLmFkZFRleHRUcmFjaykgPT09ICdmdW5jdGlvbicpLFxuXHQvLyBhIG1vcmUgc3RyaWN0IHRlc3QgZm9yIHRyYWNrIGluY2x1ZGluZyBVSSBzdXBwb3J0OiBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCd0cmFjaycpLmtpbmQgPT09ICdzdWJ0aXRsZXMnXG5cdHRyYWNrOiAoJ2tpbmQnIGluIGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ3RyYWNrJykpXG59KTtcbiJdLCJmaWxlIjoibW9kZXJuaXpyL2ZlYXR1cmUtZGV0ZWN0cy9lbGVtLXRyYWNrLmpzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

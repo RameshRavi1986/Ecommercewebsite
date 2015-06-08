@@ -1,0 +1,45 @@
+               
+
+<div class="row">
+        <div class="large-3 columns">
+          <h1 class="logo"><img src="images/logo.png"></h1>
+        </div>
+        <div class="large-9 columns right">
+        </div>
+</div>
+<div class="row" data-ng-controller="ProductController as pdCtrl">
+        <hr>
+        <div class="large-2 columns">
+          <img src="{{pdCtrl.model.selectedProduct.image}}">
+          <br>
+          <img src="{{pdCtrl.model.selectedProduct.image}}">
+          <br>
+          <img src="{{pdCtrl.model.selectedProduct.image}}">
+          <br>
+          <img src="{{pdCtrl.model.selectedProduct.image}}">
+        </div>
+        <div class="large-5 columns">
+          <img src="{{pdCtrl.model.selectedProduct.image}}" width=300 height="800">
+        </div>
+        <div class="large-5 columns">
+         <h4>{{pdCtrl.model.selectedProduct.name}}</h4>
+         <p>This product is one of the best product in the market</p>
+		 <div class="panel">
+	          <h6 class="subheader">Price: {{pdCtrl.model.selectedProduct.price}}{{pdCtrl.model.selectedProduct.currency}}</h6>
+			  <h6 class="subheader">{{pdCtrl.model.selectedProduct.stock}} in stock</h6>
+				  <a href="#" data-ng-click="pdCtrl.addToCart()" class="small button">Add to Cart</a>
+          </div>
+        </div>
+ </div>
+
+     <footer class="row">
+        <div class="large-12 columns">
+          <hr>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>© Copyright no one at all. Go to town.</p>
+            </div>
+          </div>
+        </div>
+        </footer>
+    

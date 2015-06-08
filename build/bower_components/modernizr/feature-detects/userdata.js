@@ -1,0 +1,9 @@
+// test if IE userdata supported
+// msdn.microsoft.com/en-us/library/ms531424(v=vs.85).aspx
+// test by @stereobooster
+
+Modernizr.addTest('userdata', function(){
+  return !!document.createElement('div').addBehavior;
+});
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL3VzZXJkYXRhLmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIHRlc3QgaWYgSUUgdXNlcmRhdGEgc3VwcG9ydGVkXG4vLyBtc2RuLm1pY3Jvc29mdC5jb20vZW4tdXMvbGlicmFyeS9tczUzMTQyNCh2PXZzLjg1KS5hc3B4XG4vLyB0ZXN0IGJ5IEBzdGVyZW9ib29zdGVyXG5cbk1vZGVybml6ci5hZGRUZXN0KCd1c2VyZGF0YScsIGZ1bmN0aW9uKCl7XG4gIHJldHVybiAhIWRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2RpdicpLmFkZEJlaGF2aW9yO1xufSk7XG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvdXNlcmRhdGEuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

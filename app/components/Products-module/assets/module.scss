@@ -1,0 +1,19 @@
+.row.container{
+	padding:1rem;
+}
+
+.productThumbnail .panel{
+	height:8rem;
+}
+
+.productThumbnail.columns:last-child{
+	float:left;
+}
+.productThumbnail a{
+	display:block;
+	border:1px solid #ccc;
+}
+.logo{
+	background-color:black;
+	padding:0.3rem 0.3rem;
+}

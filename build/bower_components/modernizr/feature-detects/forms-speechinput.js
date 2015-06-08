@@ -1,0 +1,20 @@
+// speech input for inputs
+// by @alrra
+
+
+// `webkitSpeech` in elem 
+// doesn`t work correctly in all versions of Chromium based browsers.
+//   It can return false even if they have support for speech i.imgur.com/2Y40n.png
+//  Testing with 'onwebkitspeechchange' seems to fix this problem
+
+// this detect only checks the webkit version because
+// the speech attribute is likely to be deprecated in favor of a JavaScript API.
+// http://lists.w3.org/Archives/Public/public-webapps/2011OctDec/att-1696/speechapi.html
+
+// FIXME: add support for detecting the new spec'd behavior
+
+Modernizr.addTest('speechinput', function(){
+    var elem = document.createElement('input'); 
+    return 'speech' in elem || 'onwebkitspeechchange' in elem; 
+});
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Zvcm1zLXNwZWVjaGlucHV0LmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIHNwZWVjaCBpbnB1dCBmb3IgaW5wdXRzXG4vLyBieSBAYWxycmFcblxuXG4vLyBgd2Via2l0U3BlZWNoYCBpbiBlbGVtIFxuLy8gZG9lc25gdCB3b3JrIGNvcnJlY3RseSBpbiBhbGwgdmVyc2lvbnMgb2YgQ2hyb21pdW0gYmFzZWQgYnJvd3NlcnMuXG4vLyAgIEl0IGNhbiByZXR1cm4gZmFsc2UgZXZlbiBpZiB0aGV5IGhhdmUgc3VwcG9ydCBmb3Igc3BlZWNoIGkuaW1ndXIuY29tLzJZNDBuLnBuZ1xuLy8gIFRlc3Rpbmcgd2l0aCAnb253ZWJraXRzcGVlY2hjaGFuZ2UnIHNlZW1zIHRvIGZpeCB0aGlzIHByb2JsZW1cblxuLy8gdGhpcyBkZXRlY3Qgb25seSBjaGVja3MgdGhlIHdlYmtpdCB2ZXJzaW9uIGJlY2F1c2Vcbi8vIHRoZSBzcGVlY2ggYXR0cmlidXRlIGlzIGxpa2VseSB0byBiZSBkZXByZWNhdGVkIGluIGZhdm9yIG9mIGEgSmF2YVNjcmlwdCBBUEkuXG4vLyBodHRwOi8vbGlzdHMudzMub3JnL0FyY2hpdmVzL1B1YmxpYy9wdWJsaWMtd2ViYXBwcy8yMDExT2N0RGVjL2F0dC0xNjk2L3NwZWVjaGFwaS5odG1sXG5cbi8vIEZJWE1FOiBhZGQgc3VwcG9ydCBmb3IgZGV0ZWN0aW5nIHRoZSBuZXcgc3BlYydkIGJlaGF2aW9yXG5cbk1vZGVybml6ci5hZGRUZXN0KCdzcGVlY2hpbnB1dCcsIGZ1bmN0aW9uKCl7XG4gICAgdmFyIGVsZW0gPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdpbnB1dCcpOyBcbiAgICByZXR1cm4gJ3NwZWVjaCcgaW4gZWxlbSB8fCAnb253ZWJraXRzcGVlY2hjaGFuZ2UnIGluIGVsZW07IFxufSk7Il0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Zvcm1zLXNwZWVjaGlucHV0LmpzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

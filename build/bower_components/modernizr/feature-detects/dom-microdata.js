@@ -1,0 +1,5 @@
+// Microdata support
+// http://www.w3.org/TR/html5/microdata.html
+// By Addy Osmani
+Modernizr.addTest('microdata', !!(document['getItems']));
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2RvbS1taWNyb2RhdGEuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gTWljcm9kYXRhIHN1cHBvcnRcbi8vIGh0dHA6Ly93d3cudzMub3JnL1RSL2h0bWw1L21pY3JvZGF0YS5odG1sXG4vLyBCeSBBZGR5IE9zbWFuaVxuTW9kZXJuaXpyLmFkZFRlc3QoJ21pY3JvZGF0YScsICEhKGRvY3VtZW50WydnZXRJdGVtcyddKSk7Il0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2RvbS1taWNyb2RhdGEuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

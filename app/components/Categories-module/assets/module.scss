@@ -1,0 +1,29 @@
+.categoryContainer{
+	position:absolute;
+	top:5%;
+	left:0%;
+	color:white;
+	font-size:2rem;
+}
+
+.categoryContainer a{
+	color:white;
+	 -webkit-animation-name: linksmove; /* Chrome, Safari, Opera */
+    	-webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+    	animation-name: linksmove;
+    	animation-duration: 2s;
+	text-decoration:underline
+
+}
+
+
+@-webkit-keyframes linksmove {
+    from {margin-left:-1000px;text-decoration:none;}
+    to {margin-left:0px;text-decoration:underline}
+}
+
+/* Standard syntax */
+@keyframes linksmove {
+from {margin-left:-1000px;text-decoration:none;}
+    to {margin-left:0px;text-decoration:underline;}
+}

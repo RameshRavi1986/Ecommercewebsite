@@ -1,0 +1,10 @@
+
+// a[download] attribute
+// When used on an <a>, this attribute signifies that the resource it
+// points to should be downloaded by the browser rather than navigating to it.
+// http://developers.whatwg.org/links.html#downloading-resources
+// By Addy Osmani
+
+Modernizr.addTest('adownload', 'download' in document.createElement('a'));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2EtZG93bmxvYWQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiXG4vLyBhW2Rvd25sb2FkXSBhdHRyaWJ1dGVcbi8vIFdoZW4gdXNlZCBvbiBhbiA8YT4sIHRoaXMgYXR0cmlidXRlIHNpZ25pZmllcyB0aGF0IHRoZSByZXNvdXJjZSBpdFxuLy8gcG9pbnRzIHRvIHNob3VsZCBiZSBkb3dubG9hZGVkIGJ5IHRoZSBicm93c2VyIHJhdGhlciB0aGFuIG5hdmlnYXRpbmcgdG8gaXQuXG4vLyBodHRwOi8vZGV2ZWxvcGVycy53aGF0d2cub3JnL2xpbmtzLmh0bWwjZG93bmxvYWRpbmctcmVzb3VyY2VzXG4vLyBCeSBBZGR5IE9zbWFuaVxuXG5Nb2Rlcm5penIuYWRkVGVzdCgnYWRvd25sb2FkJywgJ2Rvd25sb2FkJyBpbiBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdhJykpO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2EtZG93bmxvYWQuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

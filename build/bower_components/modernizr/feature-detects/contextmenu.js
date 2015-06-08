@@ -1,0 +1,13 @@
+// http://www.w3.org/TR/html5/interactive-elements.html#context-menus
+// Demo at http://thewebrocks.com/demos/context-menu/
+Modernizr.addTest(
+  'contextmenu', 
+  ('contextMenu' in document.documentElement && 'HTMLMenuItemElement' in window) 
+);
+
+
+
+
+
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2NvbnRleHRtZW51LmpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIGh0dHA6Ly93d3cudzMub3JnL1RSL2h0bWw1L2ludGVyYWN0aXZlLWVsZW1lbnRzLmh0bWwjY29udGV4dC1tZW51c1xuLy8gRGVtbyBhdCBodHRwOi8vdGhld2Vicm9ja3MuY29tL2RlbW9zL2NvbnRleHQtbWVudS9cbk1vZGVybml6ci5hZGRUZXN0KFxuICAnY29udGV4dG1lbnUnLCBcbiAgKCdjb250ZXh0TWVudScgaW4gZG9jdW1lbnQuZG9jdW1lbnRFbGVtZW50ICYmICdIVE1MTWVudUl0ZW1FbGVtZW50JyBpbiB3aW5kb3cpIFxuKTtcblxuXG5cblxuXG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvY29udGV4dG1lbnUuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

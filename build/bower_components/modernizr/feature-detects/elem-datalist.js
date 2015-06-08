@@ -1,0 +1,14 @@
+
+
+// lol. we already have a test for datalist built in! silly you.
+
+
+// Helpful links while you're here, though..
+
+// http://css-tricks.com/15346-relevant-dropdowns-polyfill-for-datalist/
+// http://miketaylr.com/test/datalist.html
+// http://miketaylr.com/code/datalist.html
+
+Modernizr.addTest('datalistelem', Modernizr.input.list );
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2VsZW0tZGF0YWxpc3QuanMiXSwic291cmNlc0NvbnRlbnQiOlsiXG5cbi8vIGxvbC4gd2UgYWxyZWFkeSBoYXZlIGEgdGVzdCBmb3IgZGF0YWxpc3QgYnVpbHQgaW4hIHNpbGx5IHlvdS5cblxuXG4vLyBIZWxwZnVsIGxpbmtzIHdoaWxlIHlvdSdyZSBoZXJlLCB0aG91Z2guLlxuXG4vLyBodHRwOi8vY3NzLXRyaWNrcy5jb20vMTUzNDYtcmVsZXZhbnQtZHJvcGRvd25zLXBvbHlmaWxsLWZvci1kYXRhbGlzdC9cbi8vIGh0dHA6Ly9taWtldGF5bHIuY29tL3Rlc3QvZGF0YWxpc3QuaHRtbFxuLy8gaHR0cDovL21pa2V0YXlsci5jb20vY29kZS9kYXRhbGlzdC5odG1sXG5cbk1vZGVybml6ci5hZGRUZXN0KCdkYXRhbGlzdGVsZW0nLCBNb2Rlcm5penIuaW5wdXQubGlzdCApO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2VsZW0tZGF0YWxpc3QuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

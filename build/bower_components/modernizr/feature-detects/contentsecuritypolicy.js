@@ -1,0 +1,12 @@
+// Test for (experimental) Content Security Policy 1.1 support.
+//
+// This feature is still quite experimental, but is available now in Chrome 22.
+// If the `SecurityPolicy` property is available, you can be sure the browser
+// supports CSP. If it's not available, the browser still might support an
+// earlier version of the CSP spec.
+//
+// Editor's Draft: https://dvcs.w3.org/hg/content-security-policy/raw-file/tip/csp-specification.dev.html
+
+Modernizr.addTest('contentsecuritypolicy', ('securityPolicy' in document || 'SecurityPolicy' in document));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2NvbnRlbnRzZWN1cml0eXBvbGljeS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBUZXN0IGZvciAoZXhwZXJpbWVudGFsKSBDb250ZW50IFNlY3VyaXR5IFBvbGljeSAxLjEgc3VwcG9ydC5cbi8vXG4vLyBUaGlzIGZlYXR1cmUgaXMgc3RpbGwgcXVpdGUgZXhwZXJpbWVudGFsLCBidXQgaXMgYXZhaWxhYmxlIG5vdyBpbiBDaHJvbWUgMjIuXG4vLyBJZiB0aGUgYFNlY3VyaXR5UG9saWN5YCBwcm9wZXJ0eSBpcyBhdmFpbGFibGUsIHlvdSBjYW4gYmUgc3VyZSB0aGUgYnJvd3NlclxuLy8gc3VwcG9ydHMgQ1NQLiBJZiBpdCdzIG5vdCBhdmFpbGFibGUsIHRoZSBicm93c2VyIHN0aWxsIG1pZ2h0IHN1cHBvcnQgYW5cbi8vIGVhcmxpZXIgdmVyc2lvbiBvZiB0aGUgQ1NQIHNwZWMuXG4vL1xuLy8gRWRpdG9yJ3MgRHJhZnQ6IGh0dHBzOi8vZHZjcy53My5vcmcvaGcvY29udGVudC1zZWN1cml0eS1wb2xpY3kvcmF3LWZpbGUvdGlwL2NzcC1zcGVjaWZpY2F0aW9uLmRldi5odG1sXG5cbk1vZGVybml6ci5hZGRUZXN0KCdjb250ZW50c2VjdXJpdHlwb2xpY3knLCAoJ3NlY3VyaXR5UG9saWN5JyBpbiBkb2N1bWVudCB8fCAnU2VjdXJpdHlQb2xpY3knIGluIGRvY3VtZW50KSk7XG4iXSwiZmlsZSI6Im1vZGVybml6ci9mZWF0dXJlLWRldGVjdHMvY29udGVudHNlY3VyaXR5cG9saWN5LmpzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

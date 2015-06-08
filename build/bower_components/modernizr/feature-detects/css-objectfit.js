@@ -1,0 +1,7 @@
+
+// dev.opera.com/articles/view/css3-object-fit-object-position/
+
+Modernizr.addTest('object-fit',
+	!!Modernizr.prefixed('objectFit')
+);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Nzcy1vYmplY3RmaXQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiXG4vLyBkZXYub3BlcmEuY29tL2FydGljbGVzL3ZpZXcvY3NzMy1vYmplY3QtZml0LW9iamVjdC1wb3NpdGlvbi9cblxuTW9kZXJuaXpyLmFkZFRlc3QoJ29iamVjdC1maXQnLFxuXHQhIU1vZGVybml6ci5wcmVmaXhlZCgnb2JqZWN0Rml0Jylcbik7Il0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2Nzcy1vYmplY3RmaXQuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==

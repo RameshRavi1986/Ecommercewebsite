@@ -1,0 +1,15 @@
+<a><img src="images/carticon.png" width=20 height=20/></a>
+	<ul class="dropdown basketContainer">
+		<li >
+		<div class="basketItems" data-ng-repeat="product in basket.products">
+			<span>{{product.name}}  :</span>
+			<span>{{product.price}} {{product.currency}}</span>
+			<a href="#" data-ng-click="removeItem($index)">Remove item</a>
+		</div>
+		<div>Total : {{basket.total}}</div>
+		</li>
+	</ul>         
+
+                    
+
+

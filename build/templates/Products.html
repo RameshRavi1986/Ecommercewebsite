@@ -1,0 +1,76 @@
+<div class="row container" data-ng-controller="ProductCatalogController as pCtrl" >
+        <div class="large-12 columns">
+           <div class="row">
+       
+            <div class="large-4 small-12 columns">
+     
+              <div class="logo"><img src="images/logo.png"></div>
+     
+              <div class="hide-for-small panel">
+                <h3>Deloitte Fashion</h3>
+                <h5 class="subheader">Upgrade your fashion
+                </h5>
+              </div>
+             </div>
+     
+            <div class="large-8 columns">
+              <div class="row" >
+
+                <div class="large-4 small-6 columns productThumbnail"  data-ng-repeat="product in pCtrl.model.selectedProducts">
+                  <a ui-sref="product({id:$index})"><img src="{{product.image}}"></a>
+     
+                  <div class="panel" >
+                    <h5>{{product.name}}</h5>
+                    <h6 class="subheader">{{product.price}}{{product.currency}}</h6>
+                  </div>
+                </div>           
+              </div>
+     
+         
+     
+     
+         
+              <div class="row">
+                <div class="large-12 columns">
+                  <div class="panel">
+                    <div class="row">
+     
+                      <div class="large-2 small-6 columns">
+                        <img src="http://placehold.it/300x300&text=Site Owner">
+                      </div>
+     
+                      <div class="large-10 small-6 columns">
+                        <strong>This Site Is Managed By<hr/></strong>
+     
+                        The site is managed by deloitte fashion
+                      </div>
+     
+                    </div>
+                  </div>
+                </div>
+     
+         
+     
+              </div>
+            </div>
+          </div>
+     
+     
+         
+     
+          <footer class="row">
+            <div class="large-12 columns"><hr/>
+              <div class="row">
+     
+                <div class="large-6 columns">
+                  <p>© Copyright reserved</p>
+                </div>
+               </div>
+            </div>
+          </footer>
+     
+         
+     
+        </div>
+      </div>
+    

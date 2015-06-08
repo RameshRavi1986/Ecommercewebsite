@@ -1,0 +1,15 @@
+
+
+// XML HTTP Request Level 2
+// www.w3.org/TR/XMLHttpRequest2/
+
+// Much more details at github.com/Modernizr/Modernizr/issues/385
+
+// all three of these details report consistently across all target browsers:
+//   !!(window.ProgressEvent);
+//   !!(window.FormData);
+//   window.XMLHttpRequest && "withCredentials" in new XMLHttpRequest;
+
+Modernizr.addTest('xhr2', 'FormData' in window);
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL25ldHdvcmsteGhyMi5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJcblxuLy8gWE1MIEhUVFAgUmVxdWVzdCBMZXZlbCAyXG4vLyB3d3cudzMub3JnL1RSL1hNTEh0dHBSZXF1ZXN0Mi9cblxuLy8gTXVjaCBtb3JlIGRldGFpbHMgYXQgZ2l0aHViLmNvbS9Nb2Rlcm5penIvTW9kZXJuaXpyL2lzc3Vlcy8zODVcblxuLy8gYWxsIHRocmVlIG9mIHRoZXNlIGRldGFpbHMgcmVwb3J0IGNvbnNpc3RlbnRseSBhY3Jvc3MgYWxsIHRhcmdldCBicm93c2Vyczpcbi8vICAgISEod2luZG93LlByb2dyZXNzRXZlbnQpO1xuLy8gICAhISh3aW5kb3cuRm9ybURhdGEpO1xuLy8gICB3aW5kb3cuWE1MSHR0cFJlcXVlc3QgJiYgXCJ3aXRoQ3JlZGVudGlhbHNcIiBpbiBuZXcgWE1MSHR0cFJlcXVlc3Q7XG5cbk1vZGVybml6ci5hZGRUZXN0KCd4aHIyJywgJ0Zvcm1EYXRhJyBpbiB3aW5kb3cpO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL25ldHdvcmsteGhyMi5qcyIsInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

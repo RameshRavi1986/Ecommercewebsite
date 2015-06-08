@@ -1,0 +1,14 @@
+// GamePad API
+// https://dvcs.w3.org/hg/gamepad/raw-file/default/gamepad.html
+// By Eric Bidelman
+
+// FF has Gamepad API support only in special builds, but not in any release (even behind a flag)
+// Their current implementation has no way to feature detect, only events to bind to.
+//   http://www.html5rocks.com/en/tutorials/doodles/gamepad/#toc-featuredetect
+
+// but a patch will bring them up to date with the spec when it lands (and they'll pass this test)
+//   https://bugzilla.mozilla.org/show_bug.cgi?id=690935
+
+Modernizr.addTest('gamepads', !!Modernizr.prefixed('getGamepads', navigator));
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2dhbWVwYWQuanMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gR2FtZVBhZCBBUElcbi8vIGh0dHBzOi8vZHZjcy53My5vcmcvaGcvZ2FtZXBhZC9yYXctZmlsZS9kZWZhdWx0L2dhbWVwYWQuaHRtbFxuLy8gQnkgRXJpYyBCaWRlbG1hblxuXG4vLyBGRiBoYXMgR2FtZXBhZCBBUEkgc3VwcG9ydCBvbmx5IGluIHNwZWNpYWwgYnVpbGRzLCBidXQgbm90IGluIGFueSByZWxlYXNlIChldmVuIGJlaGluZCBhIGZsYWcpXG4vLyBUaGVpciBjdXJyZW50IGltcGxlbWVudGF0aW9uIGhhcyBubyB3YXkgdG8gZmVhdHVyZSBkZXRlY3QsIG9ubHkgZXZlbnRzIHRvIGJpbmQgdG8uXG4vLyAgIGh0dHA6Ly93d3cuaHRtbDVyb2Nrcy5jb20vZW4vdHV0b3JpYWxzL2Rvb2RsZXMvZ2FtZXBhZC8jdG9jLWZlYXR1cmVkZXRlY3RcblxuLy8gYnV0IGEgcGF0Y2ggd2lsbCBicmluZyB0aGVtIHVwIHRvIGRhdGUgd2l0aCB0aGUgc3BlYyB3aGVuIGl0IGxhbmRzIChhbmQgdGhleSdsbCBwYXNzIHRoaXMgdGVzdClcbi8vICAgaHR0cHM6Ly9idWd6aWxsYS5tb3ppbGxhLm9yZy9zaG93X2J1Zy5jZ2k/aWQ9NjkwOTM1XG5cbk1vZGVybml6ci5hZGRUZXN0KCdnYW1lcGFkcycsICEhTW9kZXJuaXpyLnByZWZpeGVkKCdnZXRHYW1lcGFkcycsIG5hdmlnYXRvcikpO1xuIl0sImZpbGUiOiJtb2Rlcm5penIvZmVhdHVyZS1kZXRlY3RzL2dhbWVwYWQuanMiLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
