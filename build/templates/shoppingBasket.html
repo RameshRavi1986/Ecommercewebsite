@@ -1,9 +1,9 @@
 <a><img src="images/carticon.png" width=20 height=20/></a>
-	<ul class="dropdown basketContainer">
+	<ul class="dropdown basketContainer" style="width:400px">
 		<li >
 		<div class="basketItems" data-ng-repeat="product in basket.products">
-			<span>{{product.name}}  :</span>
-			<span>{{product.price}} {{product.currency}}</span>
+			<span>{{product.item.name}}  :</span>
+			<span>{{product.item.price}} {{product.item.currency}}</span>
 			<a href="#" data-ng-click="removeItem($index)">Remove item</a>
 		</div>
 		<div>Total : {{basket.total}}</div>

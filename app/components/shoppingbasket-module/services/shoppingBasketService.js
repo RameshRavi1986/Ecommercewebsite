@@ -6,11 +6,12 @@ var shoppingBasketService=function(){
 };
 
 shoppingBasketService.prototype.addToCart=function(obj){
-	this.products.push(obj);
+  if(obj.stock > 0){
+	this.products.push(new BasketItem(obj));
 	this.total+=obj.price;
 	this.basket.products=this.products;
 	this.basket.total=this.total;
-
+  }
 };
 
 shoppingBasketService.prototype.removeItem=function(index){
@@ -27,3 +28,6 @@ shoppingBasketService.prototype.removeItem=function(index){
 	this.basket.total=total;
 
 };
+var BasketItem=function(obj){
+	this.item=obj;
+}
